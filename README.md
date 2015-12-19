@@ -64,7 +64,7 @@ server {
 ```
 # Dockerfile
 FROM raphaeldelaghetto/nginx-passenger
-MAINTAINER Daniel Bidulock
+MAINTAINER Some Guy 
 
 ADD Gemfile /usr/share/nginx/html/Gemfile
 
