@@ -108,7 +108,8 @@ FROM raphaeldelaghetto/nginx-passenger
 MAINTAINER Some Guy 
 
 # Want Postgres? You'll need this for the pg gem
-# RUN apt-get install libpq-dev
+# RUN apt-get update
+# RUN apt-get install -y libpq-dev
 
 ADD Gemfile /usr/share/nginx/html/Gemfile
 
