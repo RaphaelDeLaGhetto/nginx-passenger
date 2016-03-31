@@ -107,6 +107,9 @@ Copy and save the following:
 FROM raphaeldelaghetto/nginx-passenger
 MAINTAINER Some Guy 
 
+# Want Postgres? You'll need this for the pg gem
+# RUN apt-get install libpq-dev
+
 ADD Gemfile /usr/share/nginx/html/Gemfile
 
 WORKDIR /usr/share/nginx/html
